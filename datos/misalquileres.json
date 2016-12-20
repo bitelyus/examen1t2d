@@ -1,0 +1,119 @@
+[
+  {
+    "Mes": "Diciembre 2016",
+    "Coches": [
+      {
+        "Id": 23,
+        "Marca": "Peugeot",
+        "Modelo": "407",
+        "Anio": 2004,
+        "Matricula": "3457BRE",
+        "Cliente": {
+          "Id": 49,
+          "Nombre": "Rafita",
+          "Apellidos": "Largo",
+          "FechaAlquiler": "15/12/2016"
+        },
+        "Empleado": {
+          "Id": 3,
+          "Nombre": "Lucia"
+        }
+      },
+      {
+        "Id": 1,
+        "Marca": "Alfa Romeo",
+        "Modelo": "Giuletta",
+        "Anio": 2015,
+        "Matricula": "4567ERW",
+        "Cliente": {
+          "Id": 43,
+          "Nombre": "Homer",
+          "Apellidos": "Simpson",
+          "FechaAlquiler": "14/12/2016"
+        },
+        "Empleado": {
+          "Id": 2,
+          "Nombre": "Lucia"
+        }
+      }
+    ]
+  },
+  {
+    "Mes": "Noviembre 2016",
+    "Coches": [
+      {
+        "Id": 435,
+        "Marca": "Audi",
+        "Modelo": "A3",
+        "Anio": 2014,
+        "Matricula": "5489QWE",
+        "Cliente": {
+          "Id": 49,
+          "Nombre": "Marcos",
+          "Apellidos": "Ratata",
+          "FechaAlquiler": "15/12/2016"
+        },
+        "Empleado": {
+          "Id": 3,
+          "Nombre": "Robinson"
+        }
+      },
+      {
+        "Id": 1,
+        "Marca": "Alfa Romeo",
+        "Modelo": "Giuletta",
+        "Anio": 2015,
+        "Matricula": "4567ERW",
+        "Cliente": {
+          "Id": 43,
+          "Nombre": "Homer",
+          "Apellidos": "Simpson",
+          "FechaAlquiler": "22/11/2016"
+        },
+        "Empleado": {
+          "Id": 3,
+          "Nombre": "Robinson"
+        }
+      }
+    ]
+  },
+  {
+    "Mes": "Octubre 2016",
+    "Coches": [
+      {
+        "Id": 23,
+        "Marca": "Peugeot",
+        "Modelo": "407",
+        "Anio": 2004,
+        "Matricula": "3457BRE",
+        "Cliente": {
+          "Id": 49,
+          "Nombre": "Luis",
+          "Apellidos": "Largo",
+          "FechaAlquiler": "15/12/2016"
+        },
+        "Empleado": {
+          "Id": 3,
+          "Nombre": "Robinson"
+        }
+      },
+      {
+        "Id": 1,
+        "Marca": "Alfa Romeo",
+        "Modelo": "Giuletta",
+        "Anio": 2015,
+        "Matricula": "4567ERW",
+        "Cliente": {
+          "Id": 43,
+          "Nombre": "Maggie",
+          "Apellidos": "Simpson",
+          "FechaAlquiler": "14/12/2016"
+        },
+        "Empleado": {
+          "Id": 3,
+          "Nombre": "Robinson"
+        }
+      }
+    ]
+  }
+]

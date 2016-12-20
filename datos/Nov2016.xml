@@ -1,0 +1,39 @@
+<alquiler>
+	<Mes>Noviembre 2016</Mes>
+	<Coches>
+		<Coche>
+			<id>435</id>
+			<marca>Audi</marca>
+			<modelo>A3</modelo>
+			<anio>2014</anio>
+			<matricula>5489QWE</matricula>
+			<cliente>
+				<id>49</id>
+				<nombre>Marcos</nombre>
+				<apellidos>Ratata</apellidos>
+				<fechaAlquiler>15/12/2016</fechaAlquiler>
+			</cliente>
+			<empleado>
+				<id>3</id>
+				<nombre>Robinson</nombre>
+			</empleado>
+		</Coche>
+		<Coche>
+			<id>1</id>
+			<marca>Alfa Romeo</marca>
+			<modelo>Giuletta</modelo>
+			<anio>2015</anio>
+			<matricula>4567ERW</matricula>
+			<cliente>
+				<id>43</id>
+				<nombre>Homer</nombre>
+				<apellidos>Simpson</apellidos>
+				<fechaAlquiler>22/11/2016</fechaAlquiler>
+			</cliente>
+			<empleado>
+				<id>3</id>
+				<nombre>Robinson</nombre>
+			</empleado>
+		</Coche>
+	</Coches>
+</alquiler>
