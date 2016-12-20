@@ -26,7 +26,7 @@ public class InterfazA1 {
 
         int i = 0;
         // 1. VAMOS A LISTAR LOS ARCHIVOS CON EXTENSIÓN XML Y JSON DISPONIBLES
-        File miDir = new File(System.getProperty("user.dir"));           // EL DIRECTORIO DE TRABAJO MAS CARPETA DE RECETAS
+        File miDir = new File(System.getProperty("user.dir"));           
         Ch.lcd("i> Directorio de trabajo: " + miDir.getAbsolutePath());
         File[] archivos = miDir.listFiles(new MiFiltro("txt")); // CON FILTRO PARA XML
         Ch.lcd("\nLISTADO DE ARCHIVOS TXT");

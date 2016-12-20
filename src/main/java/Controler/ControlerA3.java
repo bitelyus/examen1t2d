@@ -41,7 +41,7 @@ public class ControlerA3 {
         }
 
         if (!miworkingdir.exists()) {
-            Ch.lcd("i> PSS! No exite la carpeta con los datos. Revisalo!");
+            Ch.lcd("i> PSS! No existe la carpeta con los datos. Revísalo!");
         } else {
             Ch.lcd("i> Directorio de trabajo localizado");
             misxmls = miworkingdir.listFiles(new MiFiltro("xml"));
