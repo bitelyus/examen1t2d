@@ -37,7 +37,6 @@ public class ControlerA1 {
                             contador++;
                         }
                     }
-                    
                 }
             }
         } catch (Exception ex) {

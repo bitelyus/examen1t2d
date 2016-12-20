@@ -42,7 +42,6 @@ public class Main {
                 case 3:
                     ControlerA3.comenzar();
                     break;
-           
                 case 0: 
                     salir = true;
                     break; 
