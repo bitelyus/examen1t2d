@@ -90,9 +90,9 @@ public class ControlerA3 {
     }
 
     /**
-     * Método que recibo un objeto Receta, crea un json y lo guarda en archivo
+     * Método que recibo un objeto Alquiler, crea un json y lo guarda en archivo
      *
-     * @param receta La receta que vamos a serializar con Gson
+     * @param alquiler El alquiler que vamos a serializar con Gson
      */
     public static void guardarJSON(ArrayList<Alquiler> alquiler) {
         try {
