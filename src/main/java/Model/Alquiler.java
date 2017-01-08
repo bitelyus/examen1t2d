@@ -33,7 +33,7 @@ public class Alquiler {
         this.Mes = Mes;
     }
     
-    @XmlTransient // Esto se pone para que no repita los datos en el xml
+    @XmlTransient // Esto se pone a los gets de las listas para que no repita los datos en el xml
     public ArrayList<Coche> getCoches() {
         return Coches;
     }
@@ -57,7 +57,5 @@ public class Alquiler {
         
         return salida;
     }
-    
-    
-    
+       
 }

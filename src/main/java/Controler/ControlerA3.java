@@ -27,21 +27,29 @@ public class ControlerA3 {
 
     public static void comenzar() {
 
+        // 1. Comprobar existencia carpeta JSON
+        // 2. Si no existe... Crearla
+        
         File midir = new File("JSON");
         File miworkingdir = new File("datos");
         File[] misxmls = null;
+        
         int i = 0;
         boolean salir = false;
         Alquiler alquiler;
+        
         ArrayList<Alquiler> misalquileres = new ArrayList<>();
 
+        
         if (!midir.exists()) {
             midir.mkdir();
             Ch.lcd("SE HA CREADO LA CARPETA 'JSON' DE TRABAJO");
         }
-
+        
+        // 3. Comprobamos que existe el directorio con los xmls. Sino.. reintentar
         if (!miworkingdir.exists()) {
             Ch.lcd("i> PSS! No existe la carpeta con los datos. Revísalo!");
+            salir = true;
         } else {
             Ch.lcd("i> Directorio de trabajo localizado");
             misxmls = miworkingdir.listFiles(new MiFiltro("xml"));
@@ -56,7 +64,8 @@ public class ControlerA3 {
                 salir = true;
             }
         }
-
+        
+        // 4. SI EXISTE.. A LEERLOS LOS XMLS
         if (!salir) {
             // A LEER XML Y VOLCAR A OBJETO
             // VAMOS Y LEEEMOS EL ARCHIVO...
@@ -97,13 +106,13 @@ public class ControlerA3 {
     public static void guardarJSON(ArrayList<Alquiler> alquiler) {
         try {
             Gson gson = new GsonBuilder().setPrettyPrinting().create();
-            String miLibro = gson.toJson(alquiler);
+            String misAlquileres = gson.toJson(alquiler);
             FileWriter fw = null;
             fw = new FileWriter("JSON/misalquileres.json");
-            fw.write(miLibro);
+            fw.write(misAlquileres);
             fw.flush();
             fw.close();
-            Ch.lcd(miLibro);
+            Ch.lcd(misAlquileres);
         } catch (Exception ex) {
             Logger.getLogger(ControlerA3.class.getName()).log(Level.SEVERE, null, ex);
             ex.printStackTrace();

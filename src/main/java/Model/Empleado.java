@@ -2,13 +2,12 @@
 package Model;
 
 import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlType;
 
 /**
  *
  * @author bitelyus @ www.miguelkiko.com
  */
-@XmlRootElement(name = "empleado")  // Le decimos que el elemento base es "Receta"
+@XmlRootElement(name = "empleado")  // Le decimos que el elemento base es "Empleado"
 
 public class Empleado {
     

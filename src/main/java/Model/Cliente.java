@@ -8,7 +8,7 @@ import javax.xml.bind.annotation.XmlType;
  *
  * @author bitelyus @ www.miguelkiko.com
  */
-@XmlRootElement(name = "cliente")  // Le decimos que el elemento base es "Receta"
+@XmlRootElement(name = "cliente")  // Le decimos que el elemento base es "cliente"
 
 public class Cliente {
     

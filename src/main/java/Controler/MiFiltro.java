@@ -10,7 +10,7 @@ import java.io.FilenameFilter;
 
 /**
  *
- * @author bitelyus @ <www.miguelkiko.com>
+ * @author bitelyus @ www.miguelkiko.com
  */
 public class MiFiltro implements FilenameFilter {
     
